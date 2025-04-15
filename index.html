@@ -1,0 +1,440 @@
+<!DOCTYPE html><html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+
+    <script>
+  window.pixelId = "67fc75cafc2190d77795917f";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+    <script src="js/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async="" defer=""></script>
+    
+
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kopenhagen - Desafio</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Ícones (Font Awesome) -->
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="icon" type="image/x-icon" href="images/kpn.png">
+        <script>
+            window.pixelId = "67eaceac00da6666d68d6650";
+            var a = document.createElement("script");
+            a.setAttribute("async", "");
+            a.setAttribute("defer", "");
+            a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+            document.head.appendChild(a);
+        </script>
+    </head>
+
+    <body>
+        <!-- Aviso de Frete Grátis -->
+        <div class="aviso-frete">
+            Frete Grátis para compras acima de 40$ 🚚
+        </div>
+
+        <!-- Cabeçalho -->
+        <header>
+            <div class="logo">
+                <img src="images/logo.svg" alt="Logo da Loja">
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#"><i class="fas fa-bars"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-search"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <style>
+            .message {
+                font-size: 1.2em;
+                margin-bottom: 20px;
+                color: #333;
+            }
+
+            .container {
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+            }
+
+            .timer-card {
+                background-color: #fff;
+                padding: 20px;
+                text-align: center;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                width: 80px;
+                height: 80px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .timer-card span {
+                font-size: 2em;
+                font-weight: bold;
+                color: #333;
+            }
+
+            .label {
+                font-size: 0.8em;
+                color: #777;
+            }
+        </style>
+
+        <!-- Banner Inicial -->
+        <section class="banner">
+            <h2>Resgate seu desconto exclusivo!</h2>
+            <p style="margin-top:0.7rem; margin-bottom:0.7rem;">Sua promoção termina em:</p>
+            <div class="container">
+                <div class="timer-card">
+                    <span id="minutes">19</span>
+                    <div class="label">Minutos</div>
+                </div>
+                <div class="timer-card">
+                    <span id="seconds">00</span>
+                    <div class="label">Segundos</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Carrossel de Banners -->
+        <div class="carrossel-banners">
+            <img src="images/banner-01.webp" alt="Banner 1" class="ativo">
+            <img src="images/banner-02.webp" alt="Banner 2">
+            <img src="images/banner-03.webp" alt="Banner 3">
+            <img src="images/banner-04.webp" alt="Banner 4">
+            <img src="images/banner-05.webp" alt="Banner 5">
+            <img src="images/banner-06.webp" alt="Banner 6">
+        </div>
+
+        <!-- Produtos -->
+        <section class="produtos">
+            <!-- Produto 1 -->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/N1nVZpYenQMGlM6')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-01.png" alt="Camiseta 1" class="imagem-carrossel-produto">
+                </div>
+                <h3>Ovo de Páscoa Crocantinho 262G</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 129,90</div>
+                <div class="preco-desconto">R$ 57,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 08 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/N1nVZpYenQMGlM6')">COMPRAR AGORA</button>
+            </div>
+            <!-- Produto 2 -->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/kYL6geWendvZrKM')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-02.png" alt="Camiseta 2" class="imagem-carrossel-produto">
+                </div>
+                <h3>Ovo de Páscoa Recheado Pistache 316G</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 149,90</div>
+                <div class="preco-desconto">R$ 37,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 16 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/kYL6geWendvZrKM')">COMPRAR AGORA</button>
+            </div>
+            <!-- Produto 3 -->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/xQBPZvRrYMVZmVq')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-03.png" alt="Chuteira" class="imagem-carrossel-produto">
+                </div>
+                <h3>Ovo de Páscoa Amargo 50% Frutas Vermelhas 150G</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 99,90</div>
+                <div class="preco-desconto">R$ 47,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 02 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/xQBPZvRrYMVZmVq')">COMPRAR AGORA</button>
+            </div>
+            <!-- Produto 4 -->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/DPXw3XerX79Zzmp')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-04.png" alt="Chuteira 2" class="imagem-carrossel-produto">
+                </div>
+                <h3>Ovo de Páscoa Exagero Língua de Gato Black & White Cookies And Cream 370G</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 179,90</div>
+                <div class="preco-desconto">R$ 47,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 06 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/DPXw3XerX79Zzmp')">COMPRAR AGORA</button>
+            </div>
+            <!-- Produto 5 -->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/eApQgz2V7r5gEb7')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-05.png" alt="Produto 5" class="imagem-carrossel-produto">
+                </div>
+                <h3>Ovo de Páscoa Exagero Coco Cremoso 370G</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 179,90</div>
+                <div class="preco-desconto">R$ 57,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 02 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/eApQgz2V7r5gEb7')">COMPRAR AGORA</button>
+            </div>
+            <!-- Produto 6 -->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/BNjzgPlyjxRgM78')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-06.png" alt="Produto 6" class="imagem-carrossel-produto">
+                </div>
+                <h3>Ovo de Páscoa Friends Ross Rachel Phoebe 120G</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 179,90</div>
+                <div class="preco-desconto">R$ 49,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 08 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/BNjzgPlyjxRgM78')">COMPRAR AGORA</button>
+            </div>
+            <!-- Produto 7 -->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/ODAK3LldRYQ3E6V')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-07.png" alt="Produto 7" class="imagem-carrossel-produto">
+                </div>
+                <h3>Ovo de Páscoa Exagero Nhá Benta 390G</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 179,90</div>
+                <div class="preco-desconto">R$ 47,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 05 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/ODAK3LldRYQ3E6V')">COMPRAR AGORA</button>
+            </div>
+            <!-- Produto 8 -->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/nQ7kZ7p2vV4G0eJ')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-08.png" alt="Produto 8" class="imagem-carrossel-produto">
+                </div>
+                <h3>Kit Mil Delícias Sortidas - 15 Unidades</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 57,38</div>
+                <div class="preco-desconto">R$ 28,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 3 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/nQ7kZ7p2vV4G0eJ')">COMPRAR AGORA</button>
+            </div>
+            <!-- Produto 9-->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/RmA83Ean0O03PVp')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-09.png" alt="Produto 8" class="imagem-carrossel-produto">
+                </div>
+                <h3>Ovo de Páscoa Exagero Língua de Gato 370G</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 179,90</div>
+                <div class="preco-desconto">R$ 47,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 6 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/RmA83Ean0O03PVp')">COMPRAR AGORA</button>
+            </div>
+            <!-- Produto 10-->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/2wq7Gr7enzKgBAN')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-10.png" alt="Produto 8" class="imagem-carrossel-produto">
+                </div>
+                <h3>Ovo de Páscoa Recheado Pistache 516G</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 169,90</div>
+                <div class="preco-desconto">R$ 57,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 4 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/2wq7Gr7enzKgBAN')">COMPRAR AGORA</button>
+            </div>
+            <!-- Produto 11-->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/1VOvGV4xBzk3D62')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-11.png" alt="Produto 8" class="imagem-carrossel-produto">
+                </div>
+                <h3>Ovo de Páscoa Exagero Pistache Caramelizado 370G</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 179,90</div>
+                <div class="preco-desconto">R$ 57,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 2 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/1VOvGV4xBzk3D62')">COMPRAR AGORA</button>
+            </div>
+            <!-- Produto 12-->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/P5LNZ8zQe8zgaRy')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-12.png" alt="Produto 8" class="imagem-carrossel-produto">
+                </div>
+                <h3>Ovo de Páscoa Exagero Pink Lemonade 370G</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 169,90</div>
+                <div class="preco-desconto">R$ 49,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 5 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/P5LNZ8zQe8zgaRy')">COMPRAR AGORA</button>
+            </div>
+            <!-- Produto 13-->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/JqoR32bzjEm3Vj5')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-13.png" alt="Produto 8" class="imagem-carrossel-produto">
+                </div>
+                <h3>Ovo de Páscoa Chocolate Branco com Morango e Boneca Moranguinho 120G</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 179,90</div>
+                <div class="preco-desconto">R$ 79,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 8 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/JqoR32bzjEm3Vj5')">COMPRAR AGORA</button>
+            </div>
+            <!-- Produto 14-->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/nWrxGWAEDz63654')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-14.png" alt="Produto 8" class="imagem-carrossel-produto">
+                </div>
+                <h3>Ovo de Páscoa NBA PARIS</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 179,90</div>
+                <div class="preco-desconto">R$ 57,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 4 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/nWrxGWAEDz63654')">COMPRAR AGORA</button>
+            </div>
+            <!-- Produto 15-->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/lDW0ZaJv2zrGN7E')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-15.png" alt="Produto 8" class="imagem-carrossel-produto">
+                </div>
+                <h3>Ovo De Páscoa Clássicos 350g</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 169,90</div>
+                <div class="preco-desconto">R$ 37,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 3 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/lDW0ZaJv2zrGN7E')">COMPRAR AGORA</button>
+            </div>
+            <!-- Produto 16-->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/QqyLgqoqnzaZvkE')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-16.png" alt="Produto 8" class="imagem-carrossel-produto">
+                </div>
+                <h3>Ovo de Páscoa Bola PSG 120G</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 159,90</div>
+                <div class="preco-desconto">R$ 57,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 7 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/QqyLgqoqnzaZvkE')">COMPRAR AGORA</button>
+            </div>
+            <!-- Produto 17-->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/a6pVgd2rkzbZk7B')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-17.png" alt="Produto 8" class="imagem-carrossel-produto">
+                </div>
+                <h3>Combo Páscoa Nhá Benta Special + Bag Exclusiva</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 341,33</div>
+                <div class="preco-desconto">R$ 89,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 9 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/a6pVgd2rkzbZk7B')">COMPRAR AGORA</button>
+            </div>
+            <!-- Produto 18-->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/v7R0gloY5zNGVr9')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-18.png" alt="Produto 8" class="imagem-carrossel-produto">
+                </div>
+                <h3>Combo Páscoa Mix Língua de Gato + Bag Exclusiva</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 379,73</div>
+                <div class="preco-desconto">R$ 77,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 4 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/v7R0gloY5zNGVr9')">COMPRAR AGORA</button>
+            </div>
+
+            <!-- Produto 19-->
+            <div class="produto" onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/lqv130y2EmrZxbj')">
+                <div class="carrossel-produto">
+                    <img src="images/produto-19.png" alt="Produto 8" class="imagem-carrossel-produto">
+                </div>
+                <h3>Ovo de Páscoa Lingato Máquina Bolha de Sabão 120G</h3>
+                <div class="desconto">-80%</div>
+                <div class="preco-original">R$ 159,90</div>
+                <div class="preco-desconto">R$ 47,90</div>
+                <div class="parcelamento">até 6x no cartão s/ juros</div>
+                <div class="estoque">Restam apenas 4 unidades</div>
+                <button onclick="redirecionarCheckout('https://pay.kopenhagen-pagamento.online/lqv130y2EmrZxbj')">COMPRAR AGORA</button>
+            </div>
+        </section>
+
+        <footer>
+            <p>
+                NIBS PARTICIPAÇÕES S.A, (“CRM”), sociedade anônima, com sede na Rod. Fernão Dias, s/n, km 925,6, 1º andar, Sala 3, Roseira, Extrema/MG, CEP 37640-000, e inscrita no CNPJ/MF sob o nº 35.539.362/0001-30, detentora da marca Kopenhagen.
+            </p>
+            <p>Telefone: (71) 3450-0128</p>
+        </footer>
+
+        <script>
+            const banners = document.querySelectorAll(".carrossel-banners img");
+            let bannerAtual = 0;
+
+            function trocarBanner() {
+                banners[bannerAtual].classList.remove("ativo");
+                bannerAtual = (bannerAtual + 1) % banners.length;
+                banners[bannerAtual].classList.add("ativo");
+            }
+
+            setInterval(trocarBanner, 3000); // Troca a cada 3 segundos
+        </script>
+        <script>
+            function redirecionarCheckout(baseURL) {
+                let params = new URLSearchParams(window.location.search);
+
+                if (params.toString()) {
+                    window.location.href = baseURL + "?" + params.toString();
+                } else {
+                    window.location.href = baseURL;
+                }
+            }
+        </script>
+
+        <script>
+            let minutes = 20;
+            let seconds = 0;
+
+            function updateTimer() {
+                if (minutes === 0 && seconds === 0) {
+                    clearInterval(interval);
+                    document.getElementById("time-remaining").textContent = "00:00";
+                    return;
+                }
+
+                if (seconds === 0) {
+                    minutes--;
+                    seconds = 59;
+                } else {
+                    seconds--;
+                }
+
+                document.getElementById("minutes").textContent = String(minutes).padStart(2, "0");
+                document.getElementById("seconds").textContent = String(seconds).padStart(2, "0");
+
+                document.getElementById("time-remaining").textContent = `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+            }
+
+            const interval = setInterval(updateTimer, 1000);
+        </script>
+    
+
+    
+
+
+</body></html>
